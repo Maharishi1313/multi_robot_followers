@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>leader_follower</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="roboism@todo.todo">roboism</maintainer>
+  <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>  <!-- ROS 2 Python client library -->
+  <depend>geometry_msgs</depend>  <!-- To use PoseWithCovarianceStamped and Twist messages -->
+  <depend>nav2_msgs</depend>  <!-- To interact with Nav2 (NavigateToPose action) -->
+  <depend>rclpy_action</depend>  <!-- Action client support in Python -->
+  
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
