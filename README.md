@@ -30,7 +30,7 @@ colcon build
 source install/setup.bash
 
 # Set up the Gazebo model path
-export GAZEBO_MODEL_PATH=$(pwd)/src/turtlebot3_multi_robot/models
+export GAZEBO_MODEL_PATH=$(pwd)/src/multi_robot_followers/turtlebot3_multi_robot/models
 ```
 
 ## Overview
