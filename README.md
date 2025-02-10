@@ -77,9 +77,14 @@ Now, move the leader bot to see the other bots following it.
 
 **Solution:** Instead of canceling the goal, the logic was changed to command the follower to move to its own current position when within the threshold distance. This approach works well in most cases but occasionally leads to collisions.
 
+### Video Demonstration
+
+https://github.com/user-attachments/assets/73f84921-4cea-4d5e-aa80-16bb647e3c7c
+
 ## Future Improvements
 - Implement a **collision avoidance layer** using `costmap_filters`.
 - Tune **DWA Planner** parameters to minimize rare collisions.
+- Create a parameterized launch file that allows the number of follower robots to be specified via the command line.
 
 ## References
 
